@@ -1,4 +1,5 @@
- React Data Fetching and Display with TypeScript
+
+React Data Fetching and Display with TypeScript
 A modular React + TypeScript application that fetches and displays user data from an external API. The business logic is cleanly separated from UI components for better maintainability and reusability.
 
 🚀 Features
@@ -95,3 +96,6 @@ Add pagination or infinite scroll
 Use Axios instead of fetch
 
 Add loading spinner instead of plain text.
+
+
+
