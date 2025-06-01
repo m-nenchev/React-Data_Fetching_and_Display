@@ -1,0 +1,35 @@
+.wrapper-card{
+    max-width: 500px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem; 
+    margin-Bottom: 1rem;
+    background-color: #cba8a8;
+    border-radius: 5px;
+    border: 1px solid #bacbba;
+    box-shadow: 10px 5px 5px #b89797;
+}
+.user-card{
+    width: 400px;
+    background-color: #e8cfbb;
+    border-radius: 5px;
+    border: 1px solid #bacbba;
+}
+.user-card h1{
+    font-size: 35px;
+    color: #3c5453;;
+    font-family: sans-serif;
+}
+.user-card p{
+    text-align: left;
+    font-size: 20px;
+    color: #3f3e3e;
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+.user-card span{
+    font-size: 22px;
+    font-weight: 700;
+    color: #e24545;
+}
