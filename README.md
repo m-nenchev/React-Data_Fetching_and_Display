@@ -1,8 +1,12 @@
 
 React Data Fetching and Display with TypeScript
+-----------------------------------------------------------------------------------------------------------------------------
+
 A modular React + TypeScript application that fetches and displays user data from an external API. The business logic is cleanly separated from UI components for better maintainability and reusability.
 
+
 🚀 Features
+---------------------------------------------------
 Data fetching from JSONPlaceholder
 
 Displays loading and error states
@@ -12,7 +16,7 @@ Reusable UserCard component for each user
 Separated data service logic in a dedicated file
 
 TypeScript interfaces for strong typing
-
+---------------------------------------------------------------------------------------------------------------
 🧱 Project Structure
 graphql
 Копиране
@@ -30,7 +34,9 @@ src/
 │
 ├── types/
 │   └── User.ts           # TypeScript User interface
+
 🧠 Component Overview
+-------------------------------------------------------------------------------------------------------
 App.tsx: Handles state (loading, error, users) and fetch logic using useEffect
 
 UserList.tsx: Receives an array of users and renders UserCard for each
@@ -42,17 +48,19 @@ userService.ts: Handles the API call using fetch
 User.ts: Defines the User interface with id, name, email, company, city, Username
 
 📦 Installation & Running
-
+--------------------------------------------------------------------------------------------------------
 cd React-Data_Fetching_and_Display
 
 Install dependencies:
+--------------------------------------------------------------------------------------------------------
 npm install
 
 Run development server:
+---------------------------------------------------------------------------------------------------------
 npm run dev
 
 Open in browser: http://localhost:5173
-
+---------------------------------------------------------------------------------------------------------
 🔧 Technologies Used
 React
 
@@ -64,12 +72,12 @@ JSONPlaceholder API
 
 
 ✅ Type Definition
+----------------------------------------------------------------------------------------------------------
 types/User.ts
 
 
 📂 Example: services/userService.ts
-ts
-
+---------------------------------------------------------------------------------------------------------------
 import type{ User } from '../types/User';
 
 export const fetchUsers = async (): Promise<User[]> => {
@@ -87,6 +95,7 @@ export const fetchUsers = async (): Promise<User[]> => {
 };
 
 Future Enhancements
+---------------------------------------------------------------------------------------------------
 Add search/filter by user name
 
 Display more user info (phone, website, etc.)
@@ -97,5 +106,6 @@ Use Axios instead of fetch
 
 Add loading spinner instead of plain text.
 
+----------------------------------------------------------------------------------------------------
 
 
