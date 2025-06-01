@@ -94,4 +94,4 @@ Add pagination or infinite scroll
 
 Use Axios instead of fetch
 
-Add loading spinner instead of plain text
+Add loading spinner instead of plain text.
